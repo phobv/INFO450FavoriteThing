@@ -11,6 +11,7 @@ FoodItem::FoodItem()
 	rating = 0;
 }
 
+//This function asks the user to input info for the list.
 int FoodItem::getFoodItem()
 {
 	cout << "What is the name of the restaurant? ";
@@ -30,7 +31,7 @@ int FoodItem::getFoodItem()
 
 	return 0;
 }
-
+// Displays the list to the console
 ostream & operator<<(ostream &os, const FoodItem &item)
 {
 	os << "**** ITEM ****" << endl;

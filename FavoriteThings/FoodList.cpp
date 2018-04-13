@@ -3,11 +3,12 @@
 #include<iostream>
 using namespace std;
 
+
 FoodList::FoodList()
 {
 	listSize = 0;
 }
-
+// adds the favorite food to the list
 int FoodList::addFoodItem()
 {
 	if (fList[listSize].getFoodItem() == 0)
@@ -23,7 +24,7 @@ int FoodList::addFoodItem()
 
 
 }
-
+//prints the list 
 void FoodList::printList()
 {
 	int i;
