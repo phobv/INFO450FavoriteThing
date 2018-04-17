@@ -10,6 +10,17 @@ FoodItem::FoodItem()
 	cost = 0;
 	rating = 0;
 }
+// returns the restaurantName
+string FoodItem::getRestaurantName()
+{
+	return restaurantName;
+}
+// returns the foodName
+string FoodItem::getFoodName()
+{
+	return foodName;
+}
+
 
 //This function asks the user to input info for the list.
 int FoodItem::getFoodItem()

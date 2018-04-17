@@ -16,6 +16,8 @@ public:
 	FoodList();
 //created function that adds item to the list
 	int addFoodItem();
+// verifies if its a duplicate or not
+	bool duplicate(FoodItem food);
 //prints the list
 	void printList();
 
